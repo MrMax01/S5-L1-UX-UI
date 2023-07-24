@@ -195,7 +195,7 @@ footer a {
 
 /*RESPONSIVE*/
 
-@media screen and (min-width: 378px) {
+@media screen and (min-width: 576px) {
   h1 {
     font-size: 3rem;
   }
@@ -204,12 +204,40 @@ footer a {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   table {
     width: 80%;
   }
+}
+@media screen and (min-width: 1200px) {
+  /*HEADER*/
+  header {
+    text-align: left;
+  }
+  header div {
+    display: inline-block;
+  }
+  header div img {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  header div p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 1em;
+  }
+  header nav {
+    display: inline-block;
+    width: 66%;
+    text-align: right;
+  }
 
-  aside div {
+  header nav ul {
+    display: inline-block;
+  }
+  div aside div {
     display: inline-block;
     font-size: 0.9em;
     width: 33.3%;
