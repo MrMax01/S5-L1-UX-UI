@@ -255,6 +255,7 @@ footer a {
     width: 50%;
     display: inline-block;
     margin-left: -4px;
+    border-radius: 20px;
   }
 }
 
