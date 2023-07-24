@@ -249,9 +249,10 @@ footer a {
   iframe {
     width: 49%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
   }
   section {
+    vertical-align: middle;
     width: 50%;
     display: inline-block;
     margin-left: -4px;
