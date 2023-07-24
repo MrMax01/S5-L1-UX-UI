@@ -203,3 +203,19 @@ footer a {
     margin-inline: auto;
   }
 }
+
+@media screen and (min-width: 700px) {
+  table {
+    width: 80%;
+  }
+
+  aside div {
+    display: inline-block;
+    font-size: 0.9em;
+    width: 33.3%;
+    margin-left: -5px;
+  }
+  aside div:first-of-type {
+    margin-left: 0;
+  }
+}
