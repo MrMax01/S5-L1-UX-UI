@@ -218,4 +218,14 @@ footer a {
   aside div:first-of-type {
     margin-left: 0;
   }
+  iframe {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  section {
+    width: 50%;
+    display: inline-block;
+    margin-left: -4px;
+  }
 }
