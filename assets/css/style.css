@@ -237,7 +237,7 @@ footer a {
   header nav ul {
     display: inline-block;
   }
-  div aside div {
+  aside div {
     display: inline-block;
     font-size: 0.9em;
     width: 33.3%;
@@ -256,4 +256,7 @@ footer a {
     display: inline-block;
     margin-left: -4px;
   }
+}
+
+@media print {
 }
